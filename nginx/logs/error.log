@@ -1,0 +1,1138 @@
+2017/05/18 14:15:02 [notice] 18548#12908: using inherited sockets from "692;"
+2017/05/18 14:16:01 [error] 18548#15468: *1 CreateFile() "C:\x64\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html"
+2017/05/18 14:20:42 [notice] 18648#16412: using inherited sockets from "680;"
+2017/05/18 14:20:54 [error] 18648#84: *1 [lua] set.lua:1: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:20:55 [error] 18648#84: *1 [lua] set.lua:1: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:20:55 [error] 18648#84: *1 [lua] set.lua:1: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:27:22 [notice] 14264#17716: using inherited sockets from "700;"
+2017/05/18 14:27:27 [error] 14264#18440: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:1: module 'lfs' not found:
+	no field package.preload['lfs']
+	no file 'C:\x64\nginx//lfs.luac'
+	no file 'C:\x64\nginx//lfs.lua'
+	no file '.\lfs.lua'
+	no file 'C:\x64\nginx\lualib\lfs.lua'
+	no file 'C:\x64\nginx\lua\lfs.lua'
+	no file 'C:\x64\nginx\lua\lfs\init.lua'
+	no file '.\lfs.dll'
+	no file 'C:\x64\nginx\lualib\lfs.so'
+	no file 'C:\x64\nginx\lfs.dll'
+	no file 'C:\x64\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	C:\x64\nginx/set.lua:1: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:58:38 [notice] 7872#15300: using inherited sockets from "720;"
+2017/05/18 14:58:45 [error] 7872#14424: *1 [lua] set.lua:7: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:58:46 [error] 7872#14424: *1 [lua] set.lua:7: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 14:58:47 [error] 7872#14424: *1 [lua] set.lua:7: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:03:58 [notice] 17280#14260: using inherited sockets from "720;"
+2017/05/18 15:04:10 [notice] 15548#19284: using inherited sockets from "652;"
+2017/05/18 15:04:18 [error] 15548#19384: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:6: attempt to concatenate global '_path' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function 'file_writefile'
+	C:\x64\nginx/set.lua:10: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:08:30 [notice] 6868#12480: using inherited sockets from "652;"
+2017/05/18 15:08:35 [notice] 680#13480: using inherited sockets from "652;"
+2017/05/18 15:08:38 [notice] 11344#19044: using inherited sockets from "652;"
+2017/05/18 15:08:42 [notice] 18672#19168: using inherited sockets from "652;"
+2017/05/18 15:10:50 [notice] 18868#17404: using inherited sockets from "724;"
+2017/05/18 15:10:52 [error] 18868#4452: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:53 [error] 18868#4452: *2 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:53 [error] 18868#4452: *3 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:54 [error] 18868#4452: *4 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:54 [error] 18868#4452: *5 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:54 [error] 18868#4452: *6 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:54 [error] 18868#4452: *7 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:10:54 [error] 18868#4452: *8 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: unfinished string near '")', client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:11:50 [notice] 8452#6816: using inherited sockets from "724;"
+2017/05/18 15:11:56 [notice] 19032#14004: using inherited sockets from "724;"
+2017/05/18 15:13:43 [notice] 10884#13824: using inherited sockets from "696;"
+2017/05/18 15:13:45 [error] 10884#12268: *1 [lua] set.lua:10: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:15:58 [notice] 3220#19076: using inherited sockets from "696;"
+2017/05/18 15:16:03 [error] 3220#6120: *1 [lua] set.lua:10: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:23:53 [notice] 14364#18628: using inherited sockets from "688;"
+2017/05/18 15:23:59 [error] 14364#10024: *1 [lua] set.lua:14: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:29:22 [error] 14364#10024: *3 [lua] set.lua:14: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html&DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:29:22 [error] 14364#10024: *3 CreateFile() "C:\x64\nginx/html/index.html&DeviceID=abcd&ChannelID=12&Port=50000" failed (2: The system cannot find the file specified), client: 192.168.1.179, server: localhost, request: "GET /index.html&DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:29:47 [error] 14364#10024: *3 [lua] set.lua:14: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:30:16 [error] 14364#10024: *3 [lua] set.lua:14: touch, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 15:31:20 [notice] 11344#2072: using inherited sockets from "428;"
+2017/05/18 16:02:55 [notice] 10408#19444: using inherited sockets from "676;"
+2017/05/18 16:03:01 [error] 10408#7560: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:04:03 [notice] 14004#4348: using inherited sockets from "120;"
+2017/05/18 16:04:06 [error] 14004#9384: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:04:07 [error] 14004#9384: *2 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:04:07 [error] 14004#9384: *3 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:04:07 [error] 14004#9384: *4 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:04:07 [error] 14004#9384: *5 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:10: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:28 [notice] 19080#18464: using inherited sockets from "648;"
+2017/05/18 16:06:41 [error] 19080#18300: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:42 [error] 19080#18300: *2 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:42 [error] 19080#18300: *3 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:42 [error] 19080#18300: *4 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:42 [error] 19080#18300: *5 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:43 [error] 19080#18300: *6 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:43 [error] 19080#18300: *7 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:43 [error] 19080#18300: *8 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:06:43 [error] 19080#18300: *9 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:12: unfinished string near '"c:"', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:07:48 [notice] 5084#4568: using inherited sockets from "676;"
+2017/05/18 16:18:29 [notice] 16268#4276: using inherited sockets from "728;"
+2017/05/18 16:23:06 [notice] 10996#10984: using inherited sockets from "728;"
+2017/05/18 16:23:22 [error] 10996#15556: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: 'then' expected near '!', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:23:23 [error] 10996#15556: *2 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: 'then' expected near '!', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:23:23 [error] 10996#15556: *3 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:7: 'then' expected near '!', client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=12&Port=50000 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:23:58 [notice] 18688#16132: using inherited sockets from "668;"
+2017/05/18 16:47:44 [notice] 19324#19188: using inherited sockets from "148;"
+2017/05/18 16:48:01 [error] 19324#15892: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:01 [error] 19324#15892: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:20 [error] 19324#15892: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:20 [error] 19324#15892: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:20 [error] 19324#15892: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:20 [error] 19324#15892: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:20 [error] 19324#15892: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:20 [error] 19324#15892: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:21 [error] 19324#15892: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:21 [error] 19324#15892: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:21 [error] 19324#15892: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:21 [error] 19324#15892: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:22 [error] 19324#15892: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:22 [error] 19324#15892: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:48:22 [error] 19324#15892: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 16:48:22 [error] 19324#15892: *16 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:17: attempt to index field 'get_uri_args' (a function value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:50:27 [notice] 11584#7896: using inherited sockets from "716;"
+2017/05/18 16:50:31 [error] 11584#6080: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:50:50 [error] 11584#6080: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 16:50:55 [error] 11584#6080: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 16:54:53 [notice] 1764#12152: using inherited sockets from "716;"
+2017/05/18 16:58:15 [notice] 6900#18648: signal process started
+2017/05/18 16:58:24 [notice] 7932#17212: signal process started
+2017/05/18 16:58:24 [error] 7932#17212: CreateFile() "C:\x64\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2017/05/18 16:59:03 [notice] 11196#1020: using inherited sockets from "652;"
+2017/05/18 16:59:15 [notice] 4416#6852: signal process started
+2017/05/18 16:59:22 [notice] 16372#15624: signal process started
+2017/05/18 16:59:32 [notice] 13360#15808: signal process started
+2017/05/18 16:59:44 [notice] 19012#19232: using inherited sockets from "716;"
+2017/05/18 16:59:57 [error] 19012#10740: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:21 [error] 19012#10740: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:24 [error] 19012#10740: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:25 [error] 19012#10740: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:26 [error] 19012#10740: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:33 [error] 19012#10740: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:38 [error] 19012#10740: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:39 [error] 19012#10740: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:40 [error] 19012#10740: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:41 [error] 19012#10740: *17 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:41 [error] 19012#10740: *19 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:42 [error] 19012#10740: *20 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:42 [error] 19012#10740: *21 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:42 [error] 19012#10740: *22 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:43 [error] 19012#10740: *23 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:44 [error] 19012#10740: *25 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:45 [error] 19012#10740: *27 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:45 [error] 19012#10740: *29 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:45 [error] 19012#10740: *31 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:46 [error] 19012#10740: *33 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:46 [error] 19012#10740: *35 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:46 [error] 19012#10740: *37 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:47 [error] 19012#10740: *38 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:47 [error] 19012#10740: *40 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:47 [error] 19012#10740: *42 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:48 [error] 19012#10740: *44 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:48 [error] 19012#10740: *46 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:48 [error] 19012#10740: *48 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:02:49 [error] 19012#10740: *50 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:03:07 [error] 19012#10740: *53 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa77&ChannelID=13&Port=50002"
+2017/05/18 17:03:18 [error] 19012#10740: *56 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa5555577&ChannelID=13&Port=50002"
+2017/05/18 17:03:26 [error] 19012#10740: *57 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002"
+2017/05/18 17:10:02 [notice] 13884#9856: using inherited sockets from "720;"
+2017/05/18 17:10:07 [error] 13884#6848: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:10:08 [error] 13884#6848: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:10:09 [error] 13884#6848: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:10:11 [error] 13884#6848: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:10:13 [error] 13884#6848: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:10:15 [error] 13884#6848: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:32: attempt to concatenate global 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:12:29 [notice] 9476#14920: using inherited sockets from "688;"
+2017/05/18 17:12:33 [error] 9476#2088: *1 [lua] set.lua:18: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:12:33 [error] 9476#2088: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:33: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:12:37 [error] 9476#2088: *2 [lua] set.lua:18: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:12:37 [error] 9476#2088: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:33: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:12:37 [error] 9476#2088: *3 [lua] set.lua:18: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:12:38 [error] 9476#2088: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:33: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:14:51 [notice] 20404#20416: using inherited sockets from "684;"
+2017/05/18 17:14:53 [error] 20404#18572: *1 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:14:54 [error] 20404#18572: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:14:56 [error] 20404#18572: *2 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:14:56 [error] 20404#18572: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:14:56 [error] 20404#18572: *3 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:14:56 [error] 20404#18572: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:14:56 [error] 20404#18572: *4 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:14:57 [error] 20404#18572: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:16:22 [notice] 20200#6736: using inherited sockets from "672;"
+2017/05/18 17:16:26 [error] 20200#13428: *1 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:16:26 [error] 20200#13428: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:16:27 [error] 20200#13428: *2 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:16:27 [error] 20200#13428: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:16:28 [error] 20200#13428: *3 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:16:28 [error] 20200#13428: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:18:57 [notice] 11080#12636: using inherited sockets from "672;"
+2017/05/18 17:21:02 [notice] 18960#19268: using inherited sockets from "716;"
+2017/05/18 17:21:06 [error] 18960#15992: *1 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:21:06 [error] 18960#15992: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:21:07 [error] 18960#15992: *2 [lua] set.lua:23: file_createDic(): *************************************C:\\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:21:07 [error] 18960#15992: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:41 [notice] 18932#7248: using inherited sockets from "712;"
+2017/05/18 17:28:45 [error] 18932#5752: *1 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:45 [error] 18932#5752: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:46 [error] 18932#5752: *2 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:46 [error] 18932#5752: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:46 [error] 18932#5752: *3 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:46 [error] 18932#5752: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:47 [error] 18932#5752: *4 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:47 [error] 18932#5752: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:47 [error] 18932#5752: *5 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:47 [error] 18932#5752: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:47 [error] 18932#5752: *6 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:47 [error] 18932#5752: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:47 [error] 18932#5752: *7 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:48 [error] 18932#5752: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:48 [error] 18932#5752: *8 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:48 [error] 18932#5752: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:48 [error] 18932#5752: *9 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:48 [error] 18932#5752: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:48 [error] 18932#5752: *10 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:49 [error] 18932#5752: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:49 [error] 18932#5752: *11 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:49 [error] 18932#5752: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:28:49 [error] 18932#5752: *12 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:28:49 [error] 18932#5752: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:29:20 [error] 18932#5752: *15 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:29:20 [error] 18932#5752: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:29:28 [error] 18932#5752: *16 [lua] set.lua:23: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:29:28 [error] 18932#5752: *16 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:34: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:31:30 [notice] 19616#18884: using inherited sockets from "736;"
+2017/05/18 17:31:34 [error] 19616#19608: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:22: attempt to concatenate a boolean value
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function 'file_createDic'
+	C:\x64\nginx/set.lua:36: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:31:34 [error] 19616#19608: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:31:36 [error] 19616#19608: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:22: attempt to concatenate a boolean value
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function 'file_createDic'
+	C:\x64\nginx/set.lua:36: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:31:36 [error] 19616#19608: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:32:38 [notice] 8280#18668: using inherited sockets from "740;"
+2017/05/18 17:32:41 [error] 8280#18516: *1 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:32:41 [error] 8280#18516: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:32:43 [error] 8280#18516: *2 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:32:44 [error] 8280#18516: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:41 [notice] 19812#6572: using inherited sockets from "728;"
+2017/05/18 17:33:49 [error] 19812#9648: *1 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:49 [error] 19812#9648: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:49 [error] 19812#9648: *2 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:49 [error] 19812#9648: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:49 [error] 19812#9648: *3 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:49 [error] 19812#9648: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:50 [error] 19812#9648: *4 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:50 [error] 19812#9648: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:50 [error] 19812#9648: *5 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:50 [error] 19812#9648: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:50 [error] 19812#9648: *6 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:50 [error] 19812#9648: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:50 [error] 19812#9648: *7 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:50 [error] 19812#9648: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:50 [error] 19812#9648: *8 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:50 [error] 19812#9648: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:33:51 [error] 19812#9648: *9 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:33:51 [error] 19812#9648: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:34:57 [error] 19812#9648: *12 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:57 [error] 19812#9648: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:57 [error] 19812#9648: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:34:59 [error] 19812#9648: *14 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:59 [error] 19812#9648: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:59 [error] 19812#9648: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:34:59 [error] 19812#9648: *16 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:59 [error] 19812#9648: *16 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:34:59 [error] 19812#9648: *17 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:35:00 [error] 19812#9648: *18 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *18 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *19 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:35:00 [error] 19812#9648: *20 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *20 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *21 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:35:00 [error] 19812#9648: *22 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *22 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:35:00 [error] 19812#9648: *23 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:35: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:33 [notice] 8484#14260: using inherited sockets from "684;"
+2017/05/18 17:38:35 [error] 8484#19416: *1 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:35 [error] 8484#19416: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:35 [error] 8484#19416: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:36 [error] 8484#19416: *3 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:36 [error] 8484#19416: *5 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:36 [error] 8484#19416: *7 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:36 [error] 8484#19416: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:37 [error] 8484#19416: *9 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:37 [error] 8484#19416: *11 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:37 [error] 8484#19416: *13 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:37 [error] 8484#19416: *15 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *16 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:38:37 [error] 8484#19416: *17 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *17 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:39: attempt to index local 'file' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:38:37 [error] 8484#19416: *18 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:29: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:29: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:40:50 [notice] 3888#16008: using inherited sockets from "720;"
+2017/05/18 17:40:56 [error] 3888#19168: *1 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:40:57 [error] 3888#19168: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:28: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:41:08 [error] 3888#19168: *4 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:41:08 [error] 3888#19168: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:28: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:28: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:46:13 [notice] 18760#13892: using inherited sockets from "700;"
+2017/05/18 17:46:26 [error] 18760#1432: *1 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:46:27 [error] 18760#1432: *2 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002"
+2017/05/18 17:46:28 [error] 18760#1432: *3 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:46:28 [error] 18760#1432: *4 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002"
+2017/05/18 17:46:28 [error] 18760#1432: *5 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:46:28 [error] 18760#1432: *6 failed to load external Lua file "C:\x64\nginx/set.lua": C:\x64\nginx/set.lua:25: '=' expected near '::', client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa55555564698777&ChannelID=13&Port=50002"
+2017/05/18 17:47:28 [notice] 18272#7600: using inherited sockets from "720;"
+2017/05/18 17:48:25 [error] 18272#20396: *1 [lua] set.lua:22: file_createDic(): *************************************C:\abcd, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:25 [error] 18272#20396: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:27 [error] 18272#20396: *2 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:27 [error] 18272#20396: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:28 [error] 18272#20396: *3 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:28 [error] 18272#20396: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:28 [error] 18272#20396: *4 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:28 [error] 18272#20396: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:28 [error] 18272#20396: *5 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:28 [error] 18272#20396: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:29 [error] 18272#20396: *6 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:29 [error] 18272#20396: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:29 [error] 18272#20396: *7 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:29 [error] 18272#20396: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:45 [error] 18272#20396: *10 [lua] set.lua:22: file_createDic(): *************************************C:\abcd, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:45 [error] 18272#20396: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:46 [error] 18272#20396: *11 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:46 [error] 18272#20396: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:46 [error] 18272#20396: *12 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:46 [error] 18272#20396: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:46 [error] 18272#20396: *13 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:46 [error] 18272#20396: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:46 [error] 18272#20396: *14 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:46 [error] 18272#20396: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:48:46 [error] 18272#20396: *15 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:48:46 [error] 18272#20396: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:49:07 [error] 18272#20396: *18 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=50004 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:49:07 [error] 18272#20396: *18 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:30: bad argument #1 to 'match' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'match'
+	C:\x64\nginx/set.lua:30: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50004"
+2017/05/18 17:52:37 [notice] 18884#17264: using inherited sockets from "716;"
+2017/05/18 17:53:29 [error] 18884#932: *1 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:53:30 [error] 18884#932: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:53:33 [error] 18884#932: *2 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:53:33 [error] 18884#932: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:53:37 [error] 18884#932: *3 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:53:37 [error] 18884#932: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:53:59 [error] 18884#932: *6 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:53:59 [error] 18884#932: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:41 [error] 18884#932: *9 [lua] set.lua:22: file_createDic(): *************************************C:\aaa, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:42 [error] 18884#932: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:42 [error] 18884#932: *10 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:43 [error] 18884#932: *11 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:43 [error] 18884#932: *12 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:43 [error] 18884#932: *13 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:43 [error] 18884#932: *14 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:43 [error] 18884#932: *15 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:43 [error] 18884#932: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:44 [error] 18884#932: *16 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:44 [error] 18884#932: *16 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:44 [error] 18884#932: *17 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:44 [error] 18884#932: *17 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:44 [error] 18884#932: *18 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:44 [error] 18884#932: *18 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:44 [error] 18884#932: *19 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:44 [error] 18884#932: *19 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:44 [error] 18884#932: *20 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *20 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *21 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *21 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *22 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *22 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *23 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *23 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *24 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *24 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *25 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:45 [error] 18884#932: *25 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:45 [error] 18884#932: *26 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *26 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *27 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *27 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *28 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *28 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *29 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *30 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *29 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *30 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *31 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:46 [error] 18884#932: *31 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:46 [error] 18884#932: *32 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:47 [error] 18884#932: *32 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:47 [error] 18884#932: *34 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:47 [error] 18884#932: *33 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:47 [error] 18884#932: *35 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:47 [error] 18884#932: *35 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:47 [error] 18884#932: *37 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:47 [error] 18884#932: *37 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:47 [error] 18884#932: *36 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:47 [error] 18884#932: *36 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:47 [error] 18884#932: *38 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:48 [error] 18884#932: *38 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:48 [error] 18884#932: *39 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:48 [error] 18884#932: *39 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:48 [error] 18884#932: *40 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:48 [error] 18884#932: *40 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:48 [error] 18884#932: *41 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50002 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:48 [error] 18884#932: *41 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50002"
+2017/05/18 17:54:57 [error] 18884#932: *42 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:57 [error] 18884#932: *42 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:54:59 [error] 18884#932: *44 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:59 [error] 18884#932: *44 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:54:59 [error] 18884#932: *45 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:59 [error] 18884#932: *45 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:54:59 [error] 18884#932: *46 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:59 [error] 18884#932: *46 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:54:59 [error] 18884#932: *47 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:54:59 [error] 18884#932: *47 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:55:02 [error] 18884#932: *48 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:02 [error] 18884#932: *48 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:55:03 [error] 18884#932: *49 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:03 [error] 18884#932: *49 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:55:03 [error] 18884#932: *50 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:03 [error] 18884#932: *50 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:55:03 [error] 18884#932: *51 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=50005555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:03 [error] 18884#932: *51 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=50005555"
+2017/05/18 17:55:31 [error] 18884#932: *54 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:31 [error] 18884#932: *54 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *55 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *55 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *56 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *56 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *57 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *57 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *58 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *58 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *59 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *59 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:32 [error] 18884#932: *60 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:32 [error] 18884#932: *60 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:55:33 [error] 18884#932: *61 [lua] set.lua:19: file_createDic(): -----------------------------------------, client: 192.168.1.151, server: localhost, request: "GET /index.html?DeviceID=aaa&ChannelID=13&Port=55555 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:55:33 [error] 18884#932: *61 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.151, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=aaa&ChannelID=13&Port=55555"
+2017/05/18 17:58:08 [notice] 19116#5720: using inherited sockets from "712;"
+2017/05/18 17:58:17 [error] 19116#10616: *1 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=50002"
+2017/05/18 17:58:22 [error] 19116#10616: *2 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:22 [error] 19116#10616: *2 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=500035"
+2017/05/18 17:58:23 [error] 19116#10616: *3 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:23 [error] 19116#10616: *3 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=500035"
+2017/05/18 17:58:24 [error] 19116#10616: *4 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:24 [error] 19116#10616: *4 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=500035"
+2017/05/18 17:58:24 [error] 19116#10616: *5 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:24 [error] 19116#10616: *5 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=500035"
+2017/05/18 17:58:25 [error] 19116#10616: *6 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:25 [error] 19116#10616: *6 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcd&ChannelID=13&Port=500035"
+2017/05/18 17:58:28 [error] 19116#10616: *7 [lua] set.lua:22: file_createDic(): *******************Create a directory:C:\abcwd, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:28 [error] 19116#10616: *7 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:31 [error] 19116#10616: *8 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:31 [error] 19116#10616: *8 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:32 [error] 19116#10616: *9 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:32 [error] 19116#10616: *9 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:32 [error] 19116#10616: *10 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:32 [error] 19116#10616: *10 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:32 [error] 19116#10616: *11 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:32 [error] 19116#10616: *11 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:32 [error] 19116#10616: *12 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:32 [error] 19116#10616: *12 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:32 [error] 19116#10616: *13 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:32 [error] 19116#10616: *13 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:33 [error] 19116#10616: *14 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=500035 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:33 [error] 19116#10616: *14 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=500035"
+2017/05/18 17:58:41 [error] 19116#10616: *15 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=50003523 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 17:58:41 [error] 19116#10616: *15 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=50003523"
+2017/05/18 18:00:10 [error] 19116#10616: *17 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=50003523 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 18:00:10 [error] 19116#10616: *17 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=50003523"
+2017/05/18 18:00:41 [error] 19116#10616: *20 [lua] set.lua:19: file_createDic(): -------The directory has been created, client: 192.168.1.179, server: localhost, request: "GET /index.html?DeviceID=abcwd&ChannelID=13&Port=56666 HTTP/1.1", host: "192.168.1.179"
+2017/05/18 18:00:41 [error] 19116#10616: *20 lua entry thread aborted: runtime error: C:\x64\nginx/set.lua:36: attempt to concatenate local 'DeviceID' (a nil value)
+stack traceback:
+coroutine 0:
+	C:\x64\nginx/set.lua: in function <C:\x64\nginx/set.lua:1>, client: 192.168.1.179, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.179", referrer: "http://192.168.1.179/index.html?DeviceID=abcwd&ChannelID=13&Port=56666"
